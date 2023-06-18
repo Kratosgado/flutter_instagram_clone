@@ -19,22 +19,27 @@ Widget header() {
         children: [
           TouchableOpacity(
             activeOpacity: 0.4,
-            child: const Icon(
-              Icons.facebook_outlined,
+            child: const ImageIcon(
+              NetworkImage(
+                  'https://img.icons8.com/fluency-systems-regular/60/ffffff/plus-2-math.png'),
+              size: 30,
               color: Colors.white,
             ),
           ),
           TouchableOpacity(
             activeOpacity: 0.4,
-            child: const Icon(
-              Icons.message_outlined,
+            child: const ImageIcon(
+              NetworkImage('https://img.icons8.com/fluency-systems-regular/60/ffffff/like--v1.png'),
+              size: 30,
               color: Colors.white,
             ),
           ),
           TouchableOpacity(
             activeOpacity: 0.4,
-            child: const Icon(
-              Icons.heart_broken,
+            child: const ImageIcon(
+              NetworkImage(
+                  'https://img.icons8.com/fluency-systems-regular/60/ffffff/facebook-messenger.png'),
+              size: 30,
               color: Colors.white,
             ),
           )
