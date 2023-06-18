@@ -11,10 +11,7 @@ class HomeScreen extends StatelessWidget {
         color: Colors.black,
         child: Column(
           children: <Widget>[
-            const SizedBox(
-              height: 10,
-            ),
-            header()
+            homeHeader(),
           ],
         ),
       ),
